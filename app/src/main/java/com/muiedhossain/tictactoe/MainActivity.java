@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     int x11 = 5, x12 = 5, x13 = 5, x21 = 5, x22 = 5, x23 = 5, x31 = 5, x32 = 5, x33 = 5;
     //matrix
 
-    //initially all the slots are empty
+    //initially all the slots of matrix are empty
     int slot1 = 0, slot2 = 0, slot3 = 0, slot4 = 0, slot5 = 0, slot6 = 0, slot7 = 0, slot8 = 0, slot9 = 0;
-    //initially all the slots are empty
+    //initially all the slots of matrix are empty
 
     int a_score_Count = 0, b_score_Count = 0, i = 0;
 
