@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (slot1 == 0) {
-                    ///if Slot 1 is empty
+                    ///if Slot 1 is empty so it is clickable
                     if (startGame.equals("A")) {
                         btn_x11.setImageResource(R.drawable.re_cross);
                         x11 = 1;///"1" means it click contains "A"(to check the winning method)
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                     winningGame();
 
                 } else {
-                    ///if Slot 1 is not empty
+                    ///if Slot 1 is not empty so it is not clickable
                     Toast.makeText(MainActivity.this, "Slot is Already Taken ! Choose Another One", Toast.LENGTH_SHORT).show();
                 }
             }
